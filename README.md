@@ -9,7 +9,7 @@ Example Usage
 ``` objective-c
 AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
 manager.responseSerializer = [AFCSVResponseSerializer serializer];
-[manager GET:@"http://data.wien.gv.at/csv/wienerlinien-ogd-steige.csv" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+[manager GET:@"http://url-to/file.csv" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
     NSLog(@"CSV Data as array: %@", responseObject);
 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
     NSLog(@"Error: %@", error);
