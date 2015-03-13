@@ -1,7 +1,7 @@
 AFCSVResponseSerializer
 =====================
 
-AFCSVResponseSerializer is a serializer for [AFNetworking](https://github.com/AFNetworking/AFNetworking/) that parses CSV-responses using [CHCSVParser](https://github.com/davedelong/CHCSVParser). The parsing part is mostly taken from [AFCSVRequestOperation](https://github.com/acerbetti/AFCSVRequestOperation) which is not working anymore in newer AFNetworking versions. 
+AFCSVResponseSerializer is a serializer for [AFNetworking](https://github.com/AFNetworking/AFNetworking/) that parses CSV-responses using [CHCSVParser](https://github.com/davedelong/CHCSVParser). The parsing part is mostly taken from [AFCSVRequestOperation](https://github.com/acerbetti/AFCSVRequestOperation) which does not fit the new architecture of AFNetworking.
 
 Example Usage
 ------------------
