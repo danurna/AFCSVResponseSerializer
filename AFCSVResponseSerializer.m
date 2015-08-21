@@ -70,7 +70,7 @@
     }
     
     // Prepare data and reset error
-    NSString *responseString = [NSString stringWithUTF8String:[data bytes]];
+    NSString *responseString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     self.CSVError = nil;
     
     // Start parsing
